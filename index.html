@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kas Kelas MTsN Kota Probolinggo</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="login">
+  <form class="lbox" id="lf">
+    <div class="logo">💰</div>
+    <h1>Kas Kelas MTsN Kota Probolinggo</h1><p>Masuk untuk mengelola kas kelas.</p>
+    <label>Username</label><input id="lu" value="admin" autocomplete="username">
+    <label>Password</label><input id="lp" type="password" value="admin123" autocomplete="current-password">
+    <p class="sub" style="margin:10px 0 16px">Akun demo: admin / admin123</p>
+    <button class="btn" style="width:100%">Masuk</button>
+  </form>
+</section>
+
+<div id="app" class="hide">
+  <aside id="sb">
+    <div class="brand"><div class="logo">💰</div><div>Kas Kelas<small>MTsN Kota Probolinggo</small></div></div>
+    <nav id="nav"></nav>
+  </aside>
+  <main>
+    <div class="top"><button class="burger" id="bg" aria-label="Menu">☰</button><div style="flex:1"><h2 id="pt"></h2><div class="sub" id="pd"></div></div></div>
+    <div id="view"></div>
+  </main>
+</div>
+<div id="ov" class="hide"></div>
+<div id="toast" class="hide"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
